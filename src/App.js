@@ -5,13 +5,13 @@ import Homepage from './components/pages/homepage';
 
 const HatsPage = () => (
   <div>
-    <h1>Hats Page</h1>
+    <h1>HATS PAGE </h1>
   </div>
 );
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Switch>
         <Route exact path='/' component={Homepage} />
         <Route path='/hats' component={HatsPage} />

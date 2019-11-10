@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './directory.scss';
 import MenuItem from '../menu-item/menu-item';
 
-class Directory extends Component {
+export default class directory extends Component {
   constructor() {
     super();
 
@@ -54,4 +54,3 @@ class Directory extends Component {
     );
   }
 }
-export default Directory;
